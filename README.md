@@ -18,22 +18,6 @@ python3 main.py
 
 ---
 
-## 📺 **Before**
-Below is the original video before subtitles are added:  
-<video src="./video.mp4" controls width="640" height="360">
-  Your browser does not support the video tag.
-</video>
-
----
-
-## 🎉 **After**
-After running the script, the video will be updated with accurate, time-synced subtitles:  
-<video src="./out_movie.mp4" controls width="640" height="360">
-  Your browser does not support the video tag.
-</video>
-
----
-
 ## 🚀 **Get Started**
 1. **Install Prerequisites**: Ensure you have Python 3 installed on your system.  
 2. **Run the Script**: Use `python3 main.py` to automatically generate subtitles.  
