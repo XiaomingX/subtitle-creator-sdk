@@ -1,2 +1,2 @@
 # subtitle-creator-sdk
-生成任何视频的字幕
+ - Generate subtitles for any video with ease. This tool provides fast, accurate, and customizable subtitle generation, supporting multiple video formats and languages. Ideal for content creators, video editors, and media production teams seeking efficient subtitle workflows.
