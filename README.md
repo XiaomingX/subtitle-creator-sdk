@@ -1,14 +1,59 @@
-# subtitle-creator-sdk
- - Generate subtitles for any video with ease. This tool provides fast, accurate, and customizable subtitle generation, supporting multiple video formats and languages. Ideal for content creators, video editors, and media production teams seeking efficient subtitle workflows.
+# Subtitle Creator SDK
 
-## usage (使用方法)
-```
+Effortlessly generate accurate, multilingual subtitles for any YouTube video with a single click. The SDK supports various video formats and languages, making it an essential tool for content creators, video editors, and media production teams looking for efficient subtitle workflows.
+
+## ✨ **Key Features**
+- **One-Click Subtitle Generation**: Quickly generate subtitles for any YouTube video.  
+- **Multi-Language Support**: Supports multiple languages to meet global audience needs.  
+- **Customizable Output**: Export subtitles in multiple formats (SRT, VTT, etc.) and store them locally.  
+- **Easy Integration**: Lightweight, fast, and easy to use with a single command.  
+
+---
+
+## 📚 **Usage**
+Run the following command to generate subtitles for your video:
+```bash
 python3 main.py
 ```
 
-## before
-video.mp4
+---
 
+## 📺 **Before**
+Below is the original video before subtitles are added:  
+<video src="./video.mp4" controls width="640" height="360">
+  Your browser does not support the video tag.
+</video>
 
-## after
-out_movie.mp4
+---
+
+## 🎉 **After**
+After running the script, the video will be updated with accurate, time-synced subtitles:  
+<video src="./out_movie.mp4" controls width="640" height="360">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+## 🚀 **Get Started**
+1. **Install Prerequisites**: Ensure you have Python 3 installed on your system.  
+2. **Run the Script**: Use `python3 main.py` to automatically generate subtitles.  
+3. **Check the Results**: Your new subtitle-enhanced video will be saved as `out_movie.mp4`.
+
+---
+
+## 📦 **File Structure**
+```
+├── main.py             # Main script to generate subtitles
+├── video.mp4           # Input video file
+├── out_movie.mp4       # Output video file with subtitles
+├── subtitles/          # Directory for storing subtitle files (e.g., SRT, VTT)
+```
+
+---
+
+## 📘 **License**
+This project is licensed under the MIT License. Feel free to modify and distribute it for personal or commercial use.
+
+---
+
+For any questions, feedback, or contributions, please feel free to open an issue or submit a pull request. Let's make subtitle generation simpler and more efficient for everyone!
